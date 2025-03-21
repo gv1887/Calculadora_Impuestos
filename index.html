@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <title>Calculadora de impuestos</title>
     <link rel="stylesheet" href="css/style.css" >
 </head>
@@ -12,6 +12,7 @@
             <div class="content-title">
                 <h1> Calculadora de impuestos en compras digitales</h1>
             </div>
+            <h1>Tiendas de Videojuegos</h1>
             <div class="content-conversion">
                 <!------------------- plataforma 1----------------------->
                 <div class="plataformas-content">
@@ -19,10 +20,10 @@
                         <img src="assests/img/icons8-play-station-64.png" alt="PlayStation">
                         <p>PlayStation</p>
                     </div>
-                    <input type="number" id="input-pesos" min="1" placeholder=" $ 0.0">
+                    <input type="number" class="input-pesos" min="1" placeholder=" $ 0.0" >
                     <div class="divisa">
                         <img src="assests/img/icons8-monedas-de-conversión-64.png" alt="conversion-divisa">
-                        <p id="total">$ 0.0</p>
+                        <p class="total">$ 0.0</p>
                     </div>
                 </div>
                 <!------------------- plataforma 2----------------------->
@@ -31,10 +32,10 @@
                         <img src="assests/img/icons8-xbox-64.png" alt="Xbox">
                         <p>Xbox</p>
                     </div>
-                    <input type="number" id="input-pesos" min="1" placeholder=" $ 0.0">
+                    <input type="number" class="input-pesos" min="1" placeholder=" $ 0.0" >
                     <div class="divisa">
                         <img src="assests/img/icons8-monedas-de-conversión-64.png" alt="conversion-divisa">
-                        <p id="total">$ 0.0</p>
+                        <p class="total">$ 0.0</p>
                     </div>
                 </div>
 
@@ -44,10 +45,10 @@
                         <img src="assests/img/icons8-steam-64.png" alt="Steam">
                         <p>Steam</p>
                     </div>
-                    <input type="number" id="input-pesos" min="1" placeholder=" $ 0.0">
+                    <input type="number" class="input-pesos" min="1" placeholder=" $ 0.0" >
                     <div class="divisa">
                         <img src="assests/img/icons8-monedas-de-conversión-64.png" alt="conversion-divisa">
-                        <p id="total">$ 0.0</p>
+                        <p class="total">$ 0.0</p>
                     </div>
                 </div>
                 <!------------------- plataforma ----------------------->
@@ -56,22 +57,129 @@
                         <img src="assests/img/icons8-nintendo-switch-64.png" alt="Nintendo">
                         <p>Nintendo</p>
                     </div>
-                    <input type="number" id="input-pesos" min="1" placeholder=" $ 0.0">
+                    <input type="number" class="input-pesos" min="1" placeholder=" $ 0.0" >
                     <div class="divisa">
                         <img src="assests/img/icons8-monedas-de-conversión-64.png" alt="conversion-divisa">
-                        <p id="total">$ 0.0</p>
+                        <p class="total">$ 0.0</p>
                     </div>
                 </div>
-                <!------------------- plataforma ----------------------->
-
-                
-
-            </div>
+                <h1>Plataformas de Streaming</h1>
+                <!------------------- Streaming Netflix----------------------->
+                <div class="plataformas-content">
+                    <div class="plataformas">
+                        <img src="assests/img/icons8-netflix-64.png" alt="Netflix" class="logo-netflix">
+                        <p>Netflix</p>
+                    </div>
+                    <div class="planes">
+                        <div>
+                            <h3>Plan Básico</h3>
+                            <p>ARS 5999</p>
+                        </div>
+                        <div>
+                            <h3>Plan Estándar</h3>
+                            <p>ARS 9999</p>
+                        </div>
+                        <div>
+                            <h3>Plan Premium</h3>
+                            <p> ARS 13.499 </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!------------------- Streaming disney----------------------->
+                <div class="plataformas-content">
+                    <div class="plataformas">
+                        <img src="assests/img/icons8-disney-plus-64.png" alt="DisneyLogo" class="logo-netflix">
+                        <p>Disney +</p>
+                    </div>
+                    <div class="planes">
+                        <div>
+                            <h3>Estándar</h3>
+                            <p>ARS 10.699</p>
+                        </div>
+                        <div>
+                            <h3>Premium</h3>
+                            <p>ARS 15.299</p>
+                        </div>
+                        <div>
+                            <h3>Miembro Extra</h3>
+                            <p>ARS 6.419 </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!------------------- Streaming disney----------------------->
+                <div class="plataformas-content">
+                    <div class="plataformas">
+                        <img src="assests/img/icons8-hbo-max-64 (1).png" alt="Max logo" class="logo-netflix">
+                        <p>Max</p>
+                    </div>
+                    <div class="planes">
+                        <div>
+                            <h3>Básico con Anuncios</h3>
+                            <p>ARS 5690</p>
+                        </div>
+                        <div>
+                            <h3>Estándar</h3>
+                            <p>ARS 7290</p>
+                        </div>
+                        <div>
+                            <h3>Platino</h3>
+                            <p>ARS 8790 </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!------------------- Streaming crunchyroll----------------------->
+                <div class="plataformas-content">
+                    <div class="plataformas">
+                        <img src="assests/img/icons8-crunchyroll-64.png" alt="Crunchyroll-logo" class="logo-netflix">
+                        <p>Crunchyroll</p>
+                    </div>
+                    <div class="planes">
+                        <div>
+                            <h3>Plan Fan</h3>
+                            <p>ARS 3499</p>
+                        </div>
+                        <div>
+                            <h3>Plan MegaFan</h3>
+                            <p>ARS 4399</p>
+                        </div>
+                        <div>
+                            <h3>Plan MegaFan /año</h3>
+                            <p>ARS 43,999.00</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                 <!------------------- Streaming Youtube----------------------->
+                 <div class="plataformas-content">
+                    <div class="plataformas">
+                        <img src="assests/img/icons8-youtube-64.png" alt="youtube-logo" class="logo-netflix">
+                        <p>YouTube Premium</p>
+                    </div>
+                    <div class="planes">
+                        <div>
+                            <h3>Individual</h3>
+                            <p>ARS 1899</p>
+                        </div>
+                        <div>
+                            <h3>Familiar</h3>
+                            <p>ARS 3699</p>
+                        </div>
+                    </div>
+                    
+                </div>
 
         </section>
 
     </main>
+    <footer class="footer">
+        <h3>By Gabriel Valdez</h3> 
+        <a href="https://www.linkedin.com/in/gabrielvaldez22/"><img src="assests/img/icons8-linkedin-50.png" alt=""></a>
+</button>
 
+    </footer>
 
     <script src="js/main.js"></script>
 </body>
